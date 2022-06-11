@@ -7,7 +7,7 @@ function count(){
   });
 }
 
-async function makeAsync(){
+async function makeSync(){
   console.log('counting');
   const response= await count();
   console.log('end');
